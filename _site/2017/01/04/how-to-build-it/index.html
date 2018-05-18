@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>How it is built</title>
+
+	<link rel="shortcut icon" href="/styles/images/favicon.jpg">
+	<link rel="icon" href="/styles/images/favicon.jpg">
+
+	<link rel="stylesheet" href="/styles/css/index.css">
+	<link rel="stylesheet" href="/styles/css/fontawesome/css/font-awesome.min.css">
+	<link rel="canonical" href="/2017/01/04/how-to-build-it/">
+	<link rel="alternate" type="application/rss+xml" title="Beach Site" href="/feed.xml">
+	
+	<meta name="description" content="臧沙洋的静态技术博客。">
+
+	<script src="/styles/js/jquery.min.js"></script>
+	<!--
+     [if lt IE 9]>
+    	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  	<![endif]
+    --!>
+  	<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "//hm.baidu.com/hm.js?94be4b0f9fc5d94cc0d0415ea6761ae9";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+  	<style type="text/css">
+	  	.docs-content{
+	  		margin-bottom: 10px;
+	  	}
+  	</style>
+</head>
+
+
+  <body class="index">
+
+    <header class="navbar navbar-inverse navbar-fixed-top docs-nav" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!--
+      <a href="/" class="navbar-brand">
+        <img src="/styles/images/logo.jpg">
+      </a>
+      --!>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">    
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/categories/">Categories</a>
+        </li>
+        <li>
+          <a href="/tag">Tags</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <!--
+        <li>
+          <a href="/donate/"><strong>打赏</strong></a>
+        </li>
+        --!>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">关于<b class="caret"></b></a>
+          <!--
+          <ul class="dropdown-menu">
+            <li><a rel="nofollow" target="_blank" href="https://github.com/zangshayang1/">Github</a></li>
+            <li><a rel="nofollow" target="_blank" href="">关于作者</a></li>
+            <li><a rel="nofollow" href="/books">我的书单</a></li>
+            <li><a rel="nofollow" href="/reference">推荐博客</a></li>
+            <li><a href="/feed.xml">RSS订阅</a></li>
+            <li class="divider"></li>
+            <li><a rel="nofollow" target="_blank" href="https://github.com/luoyan35714/LessOrMore.git">本项目</a></li>
+          </ul>
+          --!>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+    <div class="docs-header" id="content">
+  <div class="container">
+  	
+  		<!--
+		    <h1>How it is built</h1>
+		    <p>Post on Jan 04, 2017 by <a href="/about">Shayang Zang</a></p>
+		-->
+		    <h1>No time for motto.</h1>
+    
+  </div>
+</div>
+
+    
+      
+<div class="banner">
+  <div class="container">
+  	
+    	<a href="/categories/#tech-log-ref">tech-log</a>	/
+    	<a href="/tag/#jekyll-on-github-ref">jekyll-on-github</a>
+    
+  </div>
+</div>
+
+    
+
+    <div class="container docs-container">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="sidebar hidden-print" role="complementary">
+        <div id="navigation">
+  <!-- <h1>目录</h1> --!>
+  <ul class="nav sidenav">
+<!--
+    
+      
+      
+      
+      
+
+      
+        <li><a href="#year_2017">2017</a>
+          <ul class="nav">
+            <li><a href="#month_2017_January">January</a></li>
+      
+
+      
+            
+          
+        
+      
+    
+      
+      
+      
+      
+
+      
+
+      
+        
+            </ul>
+          </li>
+          <li><a href="#year_2016">2016</a>
+            <ul class="nav">
+              <li><a href="#month_2016_August">August</a></li>
+        
+      
+    
+      
+      
+      
+      
+
+      
+
+      
+        
+            </ul>
+          </li>
+          <li><a href="#year_2014">2014</a>
+            <ul class="nav">
+              <li><a href="#month_2014_November">November</a></li>
+        
+      
+    
+      
+      
+      
+      
+
+      
+
+      
+            </ul>
+          </li>
+      
+    
+-->
+  </ul>
+</div>
+ 
+      </div>
+    </div>
+    <div class="col-md-9" role="main">
+      <div class="panel docs-content">
+        <div class="wrapper">
+            <header class="post-header">
+              <h1 class="post-title">How it is built</h1>
+              <!--
+                <p class="post-meta">Jan 4, 2017</p>
+              -->
+              <div class="meta">Posted on <span class="postdate">Jan 04, 2017</span> By <a target="_blank" href="http://0.0.0.0:4000">Shayang Zang</a></div>
+              <br />
+            </header>
+            <article class="post-content">
+              <ul id="markdown-toc">
+  <li><a href="#quick-start" id="markdown-toc-quick-start">Quick start</a></li>
+  <li><a href="#about-jekyll" id="markdown-toc-about-jekyll">About jekyll</a></li>
+  <li><a href="#about-ruby-eco-behind-jekyll" id="markdown-toc-about-ruby-eco-behind-jekyll">About ruby eco behind jekyll</a></li>
+</ul>
+
+<h3 id="quick-start">Quick start</h3>
+
+<p>create github account as well as a repository for your site.</p>
+
+<p>clone source code and push to your own repository.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>git clone https://github.com/luoyan35714/LessOrMore <span class="nb">local</span>-project-dir
+<span class="gp">$ </span><span class="nb">cd local</span>-project-dir   
+<span class="gp">$ </span>git config remote.origin.url your-reposiytory.git  
+<span class="gp">$ </span>git push origin master</code></pre></figure>
+
+<p>Go to your repository settings and allow Github Page to source from the master branch.</p>
+
+<hr />
+
+<h3 id="about-jekyll">About jekyll</h3>
+
+<p>Jekyll is written in ruby supported by Github Page.</p>
+
+<p>If you have ruby installed, the following will get you jekyll.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"> <span class="nv">$ </span>gem install jekyll </code></pre></figure>
+
+<p>This will host your site built based on jekyll template on local machine.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"> <span class="nv">$ </span>jekyll serve </code></pre></figure>
+
+<p>If you want to specify other host.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"> <span class="o">[</span>option] --host </code></pre></figure>
+
+<hr />
+
+<h3 id="about-ruby-eco-behind-jekyll">About ruby eco behind jekyll</h3>
+
+<ol>
+  <li>
+    <p>nice way to <a href="http://rvm.io">install ruby</a></p>
+  </li>
+  <li>
+    <p><a href="https://rubygems.org/">gem</a> is a ruby library manager. It helps to install ruby packages such as jekyll and bundler.</p>
+  </li>
+  <li>
+    <p><a href="http://bundler.io/">bundler</a> is a ruby project dependencies manager. It initialize a ruby project wit a Gemfile, where you list all the dependencies you want to use as well as their versions. So anyone with the same Gemfile can create the same dev environment via one command:</p>
+  </li>
+</ol>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"> <span class="nv">$ </span>bundler install </code></pre></figure>
+
+<hr />
+
+<ul>
+  <li>Please reference the <a href="https://github.com/luoyan35714/LessOrMore">author</a> of this jekyll template for more specific instructions.</li>
+</ul>
+
+            </article>
+        </div>
+      </div>
+      <div class="panel docs-content">
+        <article class="post-content">
+          <div class="wrapper">
+            
+
+
+  <div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = /2017/01/04/how-to-build-it/;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = http://0.0.0.0:4000/2017/01/04/how-to-build-it/; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = '//zangshayang1-github-io.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+ 
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+    <footer class="footer" role="contentinfo">
+	<div class="container">
+		<p class="copyright">Copyright &copy; 2017-2017 <a href=""><code>Shayang Zang</code></a>.</p>
+		<p>Powered by <a href="http://jekyllrb.com">Jekyll</a>, theme from <a href="http://lesscss.cn/">Less</a></p>
+	</div>
+</footer>
+
+<script src="/styles/js/jquery.min.js"></script>
+<script src="/styles/js/bootstrap.min.js"></script>
+<script src="/styles/js/holder.min.js"></script>
+<script src="/styles/js/application.js"></script>
+<script src="/styles/js/lessismore.js"></script>
+
+
+  </body>
+</html>
