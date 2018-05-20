@@ -13,6 +13,7 @@ categories: study_notes
 * content
 {:toc}
 
+
 # Bayes Classifiers
 * The most basic classifier: for each value of features, calculate the most likely
 output
