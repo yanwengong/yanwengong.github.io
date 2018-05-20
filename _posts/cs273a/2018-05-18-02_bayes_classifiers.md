@@ -25,7 +25,7 @@ $$ p(x_{1}) = \frac{1}{Z}exp{-\frac{1}{2\theta_{1}^2}(x_{1}-u_{1})^2} $$
 
 # Bayes Classifiers: Measuring Error
 * Bayes Error Rate: make optimal decision at any particular x;
-$$ Error_rate = [1-maxc p(y=c|x)] $$
+$$ ErrorRate = [1-maxc p(y=c|x)] $$
 
 # Likelihood Ratio Tests
 * Likelihood ratio: relative support for observation x under "alternative hypothesis" y=1,
