@@ -22,7 +22,7 @@ $$ P(y|x) = \frac{P(x|y) * P(y)}{P(x)} $$;
 * Naive Bayes Gaussian models: for each features, the probability is Gaussian distribution  
 $$ p(x_{1}) = \frac{1}{Z_{1}}exp{-\frac{1}{2\theta_{1}^2}(x_{1}-u_{1})^2} $$  
 $$ p(x_{2}) = \frac{1}{Z_{2}}exp{-\frac{1}{2\theta_{2}^2}(x_{2}-u_{2})^2} $$  
-$$ p(x_{1})p(x_{2}) = {-\frac_{1}{2}(x-u)^T\sum^(-1)(x-u)} $$
+$$ p(x_{1})p(x_{2}) = {-\frac_{1}{2}(x-u)^T\sum_^{-1}(x-u)} $$
 
 
 ## Bayes Classifiers: Measuring Error
