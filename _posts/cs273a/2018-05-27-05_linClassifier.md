@@ -40,4 +40,4 @@ categories: study_notes
 
 3. Surrogate loss functions: use a "smooth" function ($$ \sigma $$) and calculate the MSE; $$ J(\underline{\theta}) = \frac{1}{m}\sum( \sigma(f(x^{(j)})) -y^{(j)})^2 $$  
   * if points far from the decision boundary, small error; if nearby the boundary, large error  
-  <img src="/Users/YvonneGong/Documents/octoCattie/yanwengong.github.io/styles/images/cs273a/surrogate_loss_func.png">
+<img src="/styles/images/cs273a/surrogate_loss_func.png">
