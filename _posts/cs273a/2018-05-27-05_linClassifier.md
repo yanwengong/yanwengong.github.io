@@ -28,16 +28,16 @@ categories: study_notes
   * "good": separation is easier in higher dimensions; increase the number of features, and even a linear classifier will eventually be able to separate all the training examples  
   * "bad": overfitting   
 
-  ## Learning  
+## Learning  
 
   1. Measure the error of a linear classifier  
-    * nature measure = "fraction we get wrong": $$ err(\underlin{\theta}) = \frac{1}{m}\sum\delta(hat{y}(i) != y(i)) $$ The problem of this measurement is it is hard to deal with gradient descent since it is not continuous.  
+    * nature measure = "fraction we get wrong": $$ err(\underline{\theta}) = \frac{1}{m}\sum\delta(\hat{y}(i) != y(i)) $$ The problem of this measurement is it is hard to deal with gradient descent since it is not continuous.  
 
   2. Here we introduce a better learning method - perceptron algorithm, which adjusts $$ \theta $$ for each data point j  
-    * $$ hat{y}(j) = T(\underline{\theta} * \underline{x}(j)) $$ : predict output for each data point j  
-    * $$ \underline{\theta} = \underline{\theta} + \alpha( y(j) - hat{y}(j)) \underline{x}(j) $$ : "gradient-like" step  
+    * $$ \hat{y}(j) = T(\underline{\theta} * \underline{x}(j)) $$ : predict output for each data point j  
+    * $$ \underline{\theta} = \underline{\theta} + \alpha( y(j) - \hat{y}(j)) \underline{x}(j) $$ : "gradient-like" step  
     * this methods will adjust based on every "wrongly predicted" data and ignore the corrected points; eventually will converge if data are linearly separable   
 
-  3. Surrogate loss functions: use a "smooth" function ($$ \sigma $$) and calculate the MSE; $$ J(\underline{\theta}) = \frac{1}{m}\sum( \sigma(f(x^(j))) -y^(j))^2 $$  
+  3. Surrogate loss functions: use a "smooth" function ($$ \sigma $$) and calculate the MSE; $$ J(\underline{\theta}) = \frac{1}{m}\sum( \sigma(f(x^{(j)})) -y^{(j)})^2 $$  
     * if points far from the decision boundary, small error; if nearby the boundary, large error  
     * <img src="/Users/YvonneGong/Documents/2018_spring/machine_learning/screenshot/surrogate_loss_func.png">
