@@ -1,0 +1,31 @@
+---
+layout: post
+#标题配置
+title:  06_vcdim
+#时间配置
+date:   2018-05-30 01:08:00 +0800
+#大类配置
+categories: study_notes
+#小类配置
+#tag: machine_learning
+---
+
+* content
+{:toc}
+
+
+## VC dimension
+
+1. Different learners have different representational power.
+  * More power = represent more complex systems, might overfit
+  * Less power = won't overfit, but may not find "best" learner
+
+2. One way to quantify representational power is VC (Vapnik-Chervonenkis) dimension
+  * let H be its VC dimension; $$ 1- \eta $$ is the probability that the test error is in the expected range
+  * TestError <= TrainError + $$ \sqrt{\frac{Hlog(2m/H) + H - log(\eta/4)} {m}}
+
+3. Shattering
+  * We say a classifier f(x) can shatter points x1 ... xh if for all y1 ... yh, f(x) can achieve zero error on training data
+  * The VC dimension H is defined as the maximum number of points h that can be arranged so that f(x) can shatter them
+
+4. VC dimension helps select model and avoid overfitting and underfitting  
