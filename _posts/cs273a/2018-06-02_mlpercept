@@ -1,0 +1,33 @@
+---
+layout: post
+#标题配置
+title:  07_mlpercept
+#时间配置
+date:   2018-05-30 01:08:00 +0800
+#大类配置
+categories: study_notes
+#小类配置
+#tag: machine_learning
+---
+
+* content
+{:toc}
+
+
+## Multi-layer perceotrons and neural networks: basics
+
+1. review: perceptron classifier with two features are first taking data points into a classifier,
+like $$ f = w_1 X_1 + w_2 X_2 + W_0 $$; then use threshold function $$ T(f) $$ to transfer
+the result to -1 or +1, which correspond to two class. If we want to build more complex classifier,
+more features or polynomial could be added to the first equation.
+
+2. Multi-layer perceptron model: more function (classifier) can be added and taking the previous result
+as input:
+  * "features" are outputs of a perceptron
+  * combination of features output of another
+  * the middle functions are called "hidden layer"
+  * another name for MLPs is neural networks
+
+## Backpropagation
+
+<img src="{{'/styles/images/cs273a/Backpropagation.png'}}" width="100%" />
