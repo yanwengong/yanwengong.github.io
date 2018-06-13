@@ -68,9 +68,9 @@ In linear algebram the rank of a matrix A is the dimension of the vector space g
 
 1. Transpose is to convert rows to columns.   
 2. rules:
-$$ (A^{T})^{T} = A $$
-$$ (A+B)^{T} = A^{T} + B^{T} $$  
-$$ (\lamda A)^{T} = \lamda A^{T} $$
+$$ (A^{T})^{T} = A $$  
+$$ (A+B)^{T} = A^{T} + B^{T} $$    
+$$ (\lambda A)^{T} = \lambda A^{T} $$  
 $$ (AB)^{T} = B^{T} A^{T} $$    
 
 ## Inverse Matrix  
