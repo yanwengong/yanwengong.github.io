@@ -1,0 +1,29 @@
+Codelab week1
+
+* Github
+
+* End to End Data Science
+
+* Advanced Probability Interview
+
+* Sample Size Calculation
+
+Reference
+Sampling distribution https://en.wikipedia.org/wiki/Sampling_distribution
+
+Common used git commands:
+git clone link
+git checkout master
+git pull origin
+git branch your_branchname
+git checkout your_branchname
+(add your files / make changes)
+git add .
+git commit
+git push --set-upstream origin your_branchname
+git push -f origin
+
+Reference Material
+https://onlinecourses.science.psu.edu/statprogram/programs
+
+
