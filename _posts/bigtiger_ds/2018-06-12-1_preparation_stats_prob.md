@@ -66,4 +66,5 @@ Events are independent.
 <img src="{{'/styles/images/bittiger_DS/exponential_dist_equation.png'}}" width="100%" />      
 <img src="{{'/styles/images/bittiger_DS/exponential_dist_plot.png'}}" width="100%" />     
 
-9. Chi-squared test      
+9. Chi-squared test   
+Used to test whether there is a significant difference between expected frequencies and the observed frequencies.    
